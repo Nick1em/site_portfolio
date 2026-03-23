@@ -1,0 +1,79 @@
+.sobre-mim { 
+    margin-top: 15dvh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;    
+}
+
+.eu {
+    color: rgb(255, 82, 119);
+    font-size: x-large;
+}
+
+.sobre-mim p, 
+.sobre-mim h1 {
+    color: rgb(255, 255, 255);
+}
+
+.sobre-mim h1 {
+    font-size: 7rem;
+}
+
+.sobre-mim p {
+    font-size: 6dvh;
+}
+
+.sobre-mim a {
+    color: rgb(255, 82, 119);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*RESPONSIVIDADE*/
+
+/*tablets*/
+@media (max-width: 992px) {
+
+    .sobre-mim {
+        margin-top: 10dvh;
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+  
+    }
+
+    .sobre-mim h1 {
+        font-size: 3.5rem;
+    }
+
+    .sobre-mim p {
+        font-size: 1.5rem;
+    }
+
+    .eu {
+        font-size: 1.5rem;
+    }
+}
+
+/*celulares*/
+@media (max-width: 490px) {
+
+    .sobre-mim {
+        margin-top: 6dvh;
+        padding: 0 10px;
+    }
+
+    .sobre-mim h1 {
+        font-size: 2.5rem;
+    }
+
+    .sobre-mim p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    .eu {
+        font-size: 1.2rem;
+    }
+}

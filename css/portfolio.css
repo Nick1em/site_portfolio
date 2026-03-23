@@ -1,0 +1,184 @@
+.projetos {
+    width: 100%;
+    padding: 10dvh 0;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 30%;
+   
+}
+
+.titulo {
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 8vw;
+}
+
+.titulo p {
+    font-size: 3dvh;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+.cards {
+    width: 90%;
+    height: 40vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vw;
+}
+
+.card {
+    border-radius: 3%;
+    width: 97%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 11dvh;
+    border: 1px solid #c4c3c3;
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 10px 10px 5px;
+  
+}
+
+
+
+.link-card {
+    position: relative;
+    border-radius: 10%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.link-card img {
+    width: 23rem;
+    height: 15rem;
+    object-position: top;
+    object-fit: cover;
+}
+
+/* DEGRADÊ branco */
+.link-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(to top,
+            rgb(255, 255, 255),
+            /* branco */
+            rgba(255, 255, 255, 0)
+            /* transparente */
+        );
+
+    z-index: 1;
+    pointer-events: none;
+    /* não bloqueia hover */
+}
+
+.link-card img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+}
+
+.overlay {
+    position: absolute;
+    margin-left: 23dvh;
+    bottom: 0;
+    width: 70%;
+    height: 30%;
+    display: flex;
+    align-items: end;
+    justify-items: center;
+    gap: 12px;
+    opacity: 0;
+    transition: 0.7s ease;
+    z-index: 2;
+}
+
+.link-card:hover .overlay {
+    opacity: 1;
+}
+
+
+.btn {
+    height: 50%;
+    padding: 8px 16px;
+    background: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: rgb(255, 82, 119);
+    color: white;
+}
+
+.text-card {
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+}
+
+.text-card p {
+    font-size: 0.9rem;
+}
+
+.tecnologias {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    font-weight: bold;
+}
+
+.html {
+    background-color: #E34C26;
+}
+
+.css {
+    background-color: #0000FF;
+    color: white;
+}
+
+.js {
+    background-color: #F7DF1E;
+}
+
+.fireb {
+    background-color: #FFA611;
+}
+
+.tailwind {
+    background-color: #06b6d4;
+}
+
+.react {
+    background-color: #61DBFB;
+}
+
+.next {
+    background-color: #00ff00;
+}
+
+.tecnologias p {
+    font-size: 1rem;
+    border-radius: 9999px;
+    padding: 4px 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

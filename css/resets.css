@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body, main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(14, 20, 27);
+    color: white;
+    overflow-x: hidden;
+}
+
+
+h2 {
+    font-size: 10dvh;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 3dvh;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+/*RESPONSIVIDADE*/
+/*tablets*/
+@media (max-width: 490px) {
+
+    h2 {
+        font-size: 5dvh; /* reduz */
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    span {
+        font-size: 2dvh;
+        opacity: 0.5;
+    }
+
+}

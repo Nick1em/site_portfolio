@@ -1,0 +1,66 @@
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15dvh;
+}
+.contato-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5dvh;
+    margin-bottom: 5dvh;
+}
+
+.formulario { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2dvh;
+}
+
+.formulario-input label {
+    font-size: 1.3rem;
+    margin-bottom: 0.5dvh;
+}
+
+.formulario-input input, textarea {
+    background-color: rgb(201, 201, 193);
+    border-radius: 1dvh;
+}
+
+.formulario-input textarea {
+    width: 40dvh;
+    height: 20dvh;
+}
+
+.formulario button {
+    background-color: rgb(201, 201, 193);
+    padding: 0.5dvh 1dvw;
+    border: none;
+    border-radius: 1dvh;
+    cursor: pointer;
+    margin-top: 1dvh;
+    font-weight: 600;
+}
+
+.formulario button:hover {
+    background-color: rgb(255, 82, 119);
+    color: aliceblue;
+}
+
+.inform input{
+    width: 40dvh;
+    height: 5dvh;
+}

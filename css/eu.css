@@ -1,0 +1,32 @@
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo{
+    margin-top: 15dvh;
+    font-size: 20dvh;
+    font-weight: bold;
+    
+}
+
+.data {
+    font-size: 3dvh;
+    color: #5e5c5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10dvh;
+    margin-bottom: 10dvh;
+}
+
+.texto {
+    width: 60%;
+    display: flex;
+    font-size: 5dvh;
+    margin-bottom: 10dvh;
+}
