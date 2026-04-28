@@ -1,9 +1,9 @@
-.sobre-mim { 
+.sobre-mim {
     margin-top: 15dvh;
     width: 90%;
     display: flex;
     flex-direction: column;
-    margin-left: 5%;    
+    margin-left: 5%;
 }
 
 .eu {
@@ -11,7 +11,7 @@
     font-size: x-large;
 }
 
-.sobre-mim p, 
+.sobre-mim p,
 .sobre-mim h1 {
     color: rgb(255, 255, 255);
 }
@@ -28,7 +28,26 @@
     color: rgb(255, 82, 119);
     font-weight: bold;
     text-decoration: none;
+
 }
+
+text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.sobre-mim h1 {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+
+
 
 /*RESPONSIVIDADE*/
 
@@ -40,7 +59,7 @@
         margin-left: 0;
         align-items: center;
         text-align: center;
-  
+
     }
 
     .sobre-mim h1 {

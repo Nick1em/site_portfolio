@@ -1,24 +1,30 @@
 .projetos {
     width: 100%;
-    padding: 10dvh 0;
-    background-color: rgb(255, 255, 255);
+  
+    background-color: #fff;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
-    border-radius: 30%;
-   
 }
+
+
+
+.container-projetos-web {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20dvh;
+    
+}
+
 
 .titulo {
     color: #111;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
-    margin-bottom: 8vw;
+    margin-bottom: 2vw;
 }
 
 .titulo p {
@@ -27,29 +33,37 @@
     opacity: 0.5;
 }
 
+
 .cards {
     width: 90%;
-    height: 40vw;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1vw;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+
+    overflow-x: auto; /* scroll horizontal */
+    scroll-behavior: smooth;
+    padding-bottom:  30px;
 }
 
-.card {
-    border-radius: 3%;
-    width: 97%;
-    height: auto;
+.card{
+    width: 55dvh;  /*  define tamanho fixo */
+    height: 75dvh;
+    
+
+    flex-shrink: 0; /* 🔥 impede de encolher */
+
+    border-radius: 10px;
+    border: 1px solid #d6d0d0;
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 10px 10px 5px;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+
+    padding-bottom: 10px;
     gap: 10px;
-    margin-bottom: 11dvh;
-    border: 1px solid #c4c3c3;
-    box-shadow: rgba(0, 0, 0, 0.2) 5px 10px 10px 5px;
-  
+    
 }
-
-
 
 .link-card {
     position: relative;
@@ -59,8 +73,8 @@
 }
 
 .link-card img {
-    width: 23rem;
-    height: 15rem;
+    width: 100%;
+    height: 190px;
     object-position: top;
     object-fit: cover;
 }
@@ -90,7 +104,7 @@
 
 .overlay {
     position: absolute;
-    margin-left: 23dvh;
+    margin-left: 20dvh;
     bottom: 0;
     width: 70%;
     height: 30%;
@@ -112,8 +126,13 @@
     height: 50%;
     padding: 8px 16px;
     background: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style:normal;
     color: #ffffff;
     text-decoration: none;
+    display: flex;
+    align-items: center;
     border-radius: 999px;
     font-weight: 500;
     transition: 0.2s;
@@ -124,16 +143,26 @@
     color: white;
 }
 
+.text-card h3 {
+   font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style:normal
+}
+
 .text-card {
     color: #111;
     display: flex;
     flex-direction: column;
+    
     gap: 10px;
+    margin-left: 5px;
     width: 90%;
+    height: 60%;
 }
 
 .text-card p {
     font-size: 0.9rem;
+    
 }
 
 .tecnologias {
@@ -141,15 +170,27 @@
     flex-direction: row;
     gap: 7px;
     font-weight: bold;
+    padding-left: 5px;
+     overflow-x: auto; /* scroll horizontal */
+    scroll-behavior: smooth;
+   
 }
+
+.tecnologias::-webkit-scrollbar {
+    height: 5px;
+}
+
+
 
 .html {
     background-color: #E34C26;
+    
 }
 
 .css {
     background-color: #0000FF;
     color: white;
+    
 }
 
 .js {
@@ -172,6 +213,14 @@
     background-color: #00ff00;
 }
 
+.wp{
+    background-color:#21759b ;
+}
+
+.elementor{
+    background-color: #D3004F;
+}
+
 .tecnologias p {
     font-size: 1rem;
     border-radius: 9999px;
@@ -180,5 +229,4 @@
     justify-content: center;
     align-items: center;
 }
-
 

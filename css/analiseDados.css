@@ -1,0 +1,39 @@
+.container-analise-dados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20dvh;
+}
+
+.dados
+.PB{
+    color: #F2C811 ;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 2vw;
+}
+
+.btn-dados {
+    height: 50%;
+    padding: 8px 16px;
+    background: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.btn-dados:hover {
+    background: rgb(255, 82, 119);
+    color: white;
+}
+
+.python {
+    color: #4584b6;
+     font-size: xx-large;
+    font-weight: bold;
+
+    margin: 40px 0px 30px;
+
+}

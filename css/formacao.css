@@ -2,7 +2,7 @@
 
 .formacao {
     margin-top: 22dvh;
-    padding-bottom: 20dvh;
+    padding-bottom: 10dvh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +47,9 @@
 }
 
 .cards-titulo {
+     font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,6 +58,10 @@
 }
  
 .card-cursos ul {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
     margin-left: 1rem;
     margin-bottom: 1rem;
   list-style: disc;

@@ -3,7 +3,7 @@
 header {
     width: 90%;
     height: 10dvh;
-    margin-top: 6dvh;
+    margin-top: 6dvh;;
 }
 
 .menu{
@@ -27,9 +27,13 @@ header {
     font-size: 3dvh;
     color: white;
     cursor: pointer;
+     font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+     font-weight: 300;
 }
 
-.menu ul li:hover{
+.menu ul li{
     position: relative;
 }
 
@@ -55,6 +59,12 @@ header {
     gap: 1dvh;
 }
 
+.perfil a {
+    display: flex;
+    align-items: center;
+}
+
+
 .perfil img {
     width: 10dvh;
     height: 10dvh;
@@ -67,6 +77,11 @@ header {
     color: white;
 }
 
+.perfil:hover{
+   
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
 
 /*RESPONSIVIDADE*/
 

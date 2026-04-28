@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +5,8 @@
 
 }
 
-body, main {
+body,
+main {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -18,20 +18,32 @@ body, main {
 
 
 h2 {
+     font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 10dvh;
     margin-bottom: 10px;
 }
 
 span {
+     font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     font-size: 3dvh;
     color: rgb(255, 255, 255);
     opacity: 0.5;
 }
 
+p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
 
 html {
-  scroll-behavior: smooth;
-  
+    scroll-behavior: smooth;
+
 }
 
 /*RESPONSIVIDADE*/
@@ -39,7 +51,8 @@ html {
 @media (max-width: 490px) {
 
     h2 {
-        font-size: 5dvh; /* reduz */
+        font-size: 5dvh;
+        /* reduz */
         margin-bottom: 10px;
         text-align: center;
     }
