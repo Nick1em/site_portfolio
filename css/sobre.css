@@ -56,10 +56,8 @@ text {
 
     .sobre-mim {
         margin-top: 10dvh;
-        margin-left: 0;
+        margin-left: 12;
         align-items: center;
-        text-align: center;
-
     }
 
     .sobre-mim h1 {
